@@ -1,0 +1,112 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  #calculate-btn{
+    margin-top: 20px;
+  }
+  #result:empty {
+    display: none;
+  }
+  #result {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333435;
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  i{
+    color: #fff;
+
+  }
+  .color-org{
+    background-color: #ff8000;
+    color: #fff;
+  }
+  .fs-4{
+    color: #fff;
+    margin-left: 10px;
+  }
+/* Header */
+.large-header {
+	position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+	width: 100%;
+	background: #333;
+	background-size: 100% auto;
+	background-position: 0 0;
+	z-index: 1;
+  overflow: hidden;
+}
+
+#large-header {
+	background-image: url('http://ttolk.ru/wp-content/uploads/2012/12/%D1%81%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B5-%D0%BC%D0%BE%D1%80%D0%B5.jpg');
+}
+
+ .large-header {
+ 	position: absolute;
+ 	margin: 0;
+ 	padding: 0;
+ 	color: #f9f1e9;
+ 	text-align: center;
+ 	top: 50%;
+ 	left: 50%;
+ 	-webkit-transform: translate3d(-50%,-50%,0);
+ 	transform: translate3d(-50%,-50%,0);
+ }
+.center-block {
+  color: tomato;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.demo-1 .main-title {
+	text-transform: uppercase;
+	font-size: 4.2em;
+	letter-spacing: 0.1em;
+}
+
+.main-title .thin {
+	font-weight: 200;
+}
+
+@media only screen and (max-width : 768px) {
+	.demo-1 .main-title {
+		font-size: 3em;
+	}
+}
+
+.holder {
+  background: #000;
+}
+.btn-primary{
+  background-color: #ff8000 !important;
+  border-color: #ff8000 !important;
+}
+.form-check-input:checked{
+  background-color: #ff8000 !important;
+  border-color: #ff8000 !important;
+}
